@@ -27,7 +27,7 @@ public class Task4 {
         int duration_m = end_m - start_m;
         int duration_s = end_s - start_s;
 
-        if (end_h>=start_h) { // End hour must be higher or equal than start hour
+        if (end_h>=start_h) { // End hour must be higher or equal to start hour
             if (end_m < start_m) {
                 duration_h = end_h - start_h - 1;
                 duration_m = end_m - start_m + 60;
